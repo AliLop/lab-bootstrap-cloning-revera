@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+.site-header {
+    margin-top: 20px;
+    height: 63px;
+}
+.title {
+    text-decoration: none;
+    color: black;
+}
+.site-title:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    font-size: 14px;   
+}
+.active {
+    color: red;
+}
+.unabled {
+    color: grey;
+}
+.unabled:hover{
+    color:red;
+}
+
+.noflex {
+    display: block;
+}
+.carousel-item {
+    position: relative;
+    top: -12px;
+}
+.carousel-item:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('starter-code/img/overlay.png');
+}
+.carousel-caption h1 {
+    line-height: 40px;
+}
+.read-more {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.read-more:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.carousel-control-prev {
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    margin-top: 195px;
+}
+.carousel-control-next {
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    margin-top: 195px;
+}
+
+
+.red {
+    background-color: #ED564B;
+    position: relative;
+    top: -15px;
+}
+
+.col-red {
+    color:#ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+svg {
+    height: 50px;
+    margin: 20px;
+}
+
+#bottom {
+    
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+.col-md-3 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.textwidget p {
+    color: #AAAAAA;
+}
+
+li {
+    text-decoration: none;
+}
